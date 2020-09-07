@@ -1,0 +1,165 @@
+
+/* ----- colors -------
+.{ color: #010B40; }
+.{ color: #536473; }
+.{ color: #8BBF56; }
+.{ color: #AFF24B; }
+.{ color: #F2F2F2; }
+<------------------>
+
+/* typography 
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+h1,h2,h3 {
+    font-family: 'Staatliches', cursive;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+#lets-chat {
+    text-align: center;
+}
+
+#intro {
+    margin-top: 20px;
+}
+
+/* home header  */
+
+#hero-header{
+    padding: 20px;
+    text-align: center;
+    background-color: #AFF24B;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* body styling */
+
+/* .container {
+    margin-top: 50px;
+    background-color: white;
+} */
+
+
+body {
+    background-color: #F2F2F2;
+}
+
+#portfolio-body {
+    padding: 20px;
+}
+
+#contact-form {
+    padding: 20px;
+}
+
+
+/* navbar styling */
+
+
+.navbar-brand {
+    color: white !important;
+    padding-right: 50px;
+    margin-left: 50px;
+    font-family: 'Staatliches', cursive;
+}
+
+.bg-dark {
+    background-color: #536473 !important;
+    padding:15px;
+}
+
+.nav-link {
+    color: white !important;  
+    font-family: 'Staatliches', cursive; 
+}
+
+.nav-link:hover { 
+    color: #8BBF56 !important;
+
+}
+
+.nav-link:active {
+    color: #AFF24B !important;
+}
+
+.navbar-toggler {
+    background-color: #AFF24B;
+}
+
+label{
+    color: white;
+    
+}
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #010B40;
+    
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: #AFF24B;
+}
+
+/* contact form */
+
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #536473;
+}
+
+#messagebox {
+    height: 200px;
+}
+
+
+/* card */
+.card {
+    margin: 1rem auto;
+    position: relative; 
+  }
+  
+  .card-body {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .text-white {
+      background-color: black;
+      opacity: .5;
+      text-align: center;
+  }
+
+  /* footer */
+
+  .footer {
+    background-color: #AFF24B;
+  }
+
+  #sticky-footer {
+      text-align: center;
+  }
+
+  /* images */
+
+  .img-thumbnail {
+      border:none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
