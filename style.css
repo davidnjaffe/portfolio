@@ -16,7 +16,7 @@ p {
     font-size: 20px;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
     font-family: 'Staatliches', cursive;
 }
 
@@ -39,7 +39,7 @@ h1,h2,h3 {
     text-align: center;
     background-color: #AFF24B;
     margin-bottom: 50px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 /* body styling */
@@ -131,14 +131,20 @@ form {
     position: relative; 
   }
   
-  .card-body {
+  /* .card-body {
     z-index: 2;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-  }
+  } */
   
+  .card-body{
+      background-color: #F2F2F2;
+      border: none;
+  }
+
+
   .text-white {
       background-color: black;
       opacity: .5;
@@ -163,3 +169,30 @@ form {
       margin-left: auto;
       margin-right: auto;
   }
+
+  .card{
+      background-color: transparent;
+      border:none;
+  }
+
+  #project-title{
+      text-align: center;
+  }
+
+  #project-links{
+      list-style: none;
+      text-align: center;
+      margin-left: -50px;
+      color: #231C58;
+      
+  }
+
+  h4{
+      color: #000;
+  }
+
+ #resume-block{
+     text-align: center;
+     padding:25px;
+     background-color: darkorange;
+ }
